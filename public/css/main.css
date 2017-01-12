@@ -2,74 +2,93 @@
     font-family: 'Roboto', 'Helvetica', sans-serif;
 }
 
-.page-content {
+.body {
     margin: 24px 16px 24px 16px;
     font-size: medium;
 }
 
-.page-content .lesson-1_header {
+/* Lesson 1 */
+.lesson-1_header {
     font-weight: bold;
     text-align: center;
     font-size: xx-large;
 }
 
-.page-content .lesson-1_definition {
+.lesson-1_definition {
     font-weight: bold;
     text-align: justify;
 }
 
-.page-content .lesson-1_thesis_title {
+.lesson-1_thesis_title {
     margin-top: 16px;
     font-style: italic;
     font-size: x-large;
     text-align: end;
 }
 
-.page-content .lesson-1_thesis_list {
+.lesson-1_thesis_list {
     font-weight: bold;
 }
 
-.page-content .lesson-1_principle_title {
+.lesson-1_principle_title {
     margin-top: 16px;
     text-align: center;
     font-size: x-large;
 }
 
-.page-content .lesson-2_image {
+
+/* Lesson 2 */
+.lesson-2_image {
     width: 400px;
     height: 600px;
     border: 1px solid #021a40;
     align-content: flex-start;
 }
 
-.page-content .lesson-2_links {
+.lesson-2_links {
     margin-top: 24px;
 }
 
-.page-content .lesson-3_title {
+.lesson-2_links a {
+    display: list-item;
+}
+
+
+/* Lesson 3 */
+.lesson-3_title {
     font-weight: bold;
     margin-top: 24px;
     margin-bottom: 8px;
     font-size: large;
 }
 
-.page-content table {
+table {
     width: 100%;
 }
 
-.page-content .lesson-3_table thead th {
+.lesson-3_table thead th {
     text-align: center;
     font-weight: bold;
     font-size: medium;
 }
 
-.page-content .lesson-3_table td {
+.lesson-3_table td {
     text-align: center;
     font-size: medium;
 }
 
-.page-content .lesson-4_title {
+
+/* Lesson 4 */
+.lesson-4_title {
     font-weight: bold;
     font-size: x-large;
     margin-bottom: 16px;
+}
+
+.lesson-4_user_form {
+    width: auto;
+}
+
+.lesson-4_user_form div {
+    display: inline;
 }
