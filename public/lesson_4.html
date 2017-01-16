@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
     <title>Задание 4</title>
@@ -7,22 +7,44 @@
 </head>
 <body>
 <p class="lesson-4_title">Бланк заявки</p>
-<form action="#" >
+<form action="#">
     <fieldset class="lesson-4_user_form">
         <legend>Личные данные</legend>
-        <div>
-            <label>Имя</label>
+        <div class="lesson-4_line">
+            <label>Имя:</label>
             <input type="text" id="user_name" title="Имя">
-        </div>
-        <div>
-            <label>Фамилия</label>
+
+            <label>Фамилия:</label>
             <input type="text" id="user_surname" title="Фамилия">
         </div>
-        <div>
+        <div class="lesson-4_line">
             <label>E-mail</label>
             <input type="text" id="user_email" title="E-mail">
         </div>
     </fieldset>
+    <p>
+        <label>Способ оплаты:</label>
+        <select title="Способ оптаты">
+            <option>Наличные</option>
+            <option>Безналичный</option>
+        </select>
+    </p>
+    <p>
+        <label>Способ доставки</label>
+    <p>
+        <input type="radio" checked title="Способ доставки"> Доставка курьером
+        <input type="radio" title="Способ доставки"> Почтовая пересылка
+        <input type="radio" title="Способ доставки"> Самовывоз
+    </p>
+    <p>
+        <label>Примечания (дополнения) к заказу:</label><br/>
+        <textarea title="Примечания (дополнения) к заказу"></textarea>
+    </p>
+    <p><input type="checkbox" title="С условиями доставки и оплаты ознакомлен, заказ подтвержаю"><b>С условиями доставки и оплаты ознакомлен, заказ подтвержаю</b></p>
+    <p>
+        <input type="button" value="Отправить">
+        <input type="button" value="Отмена">
+    </p>
 </form>
 </body>
 </html>

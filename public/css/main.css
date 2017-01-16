@@ -36,7 +36,6 @@
     font-size: x-large;
 }
 
-
 /* Lesson 2 */
 .lesson-2_image {
     width: 400px;
@@ -52,7 +51,6 @@
 .lesson-2_links a {
     display: list-item;
 }
-
 
 /* Lesson 3 */
 .lesson-3_title {
@@ -77,7 +75,6 @@ table {
     font-size: medium;
 }
 
-
 /* Lesson 4 */
 .lesson-4_title {
     font-weight: bold;
@@ -87,8 +84,11 @@ table {
 
 .lesson-4_user_form {
     width: auto;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
-.lesson-4_user_form div {
-    display: inline;
+.lesson-4_line {
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
